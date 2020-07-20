@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>C Programming Language Output this code Quizzes 1</title>
+    
+                <link rel="stylesheet" type="text/css" href="https://sharecodepoint.in/sharecodepoint-website-data/quizze-files/sharecodepoint.css" />
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+                
+ 
+    <script src="https://sharecodepoint.in/sharecodepoint-website-data/quizze-files/jquery-1.9.1.min.js"></script>
+    
+     <script type="text/javascript">
+	$(document).ready(function() {
+    $('label').click(function() {
+        $('label').removeClass('worngans');
+        $(this).addClass('worngans');
+    });
+});
+	</script>
+   
+    
+   </head>
+   <body >
+<div class="scp-quizzes-main">
+<div class="scp-quizzes-data">
+  <h3>1. What is the output of the below c code?</h3>
+    <pre>#include&lt;stdio.h>	
+main() 
+{
+   int x = 5;
+   
+   if(x=5)
+   {	
+      if(x=5) printf("Fast");
+   } 
+   printf("learning");
+}</pre>
+<br/>
+    <input type="radio" id="Fastlearning" name="question1" onclick="q1function()">
+       <label for="Fastlearning">1. Fastlearning</label><br/>
+    <input type="radio"  name="question1">
+       <label>2. learning</label><br/>
+    <input type="radio" name="question1">
+       <label>3. learningFast</label> <br/>
+    <input type="radio" name="question1">
+     <label>4. Fast</label> 
+ </div>
+  </ul>
+<style>
+#q1more1 {display: none;}
+</style>
+<span id="q1more1">
+The full form of RAM is "Random Access Memory"</span><br />
+<script>
+function q1function() {
+var q1moreText = document.getElementById("q1more1");
+q1moreText.style.display = "inline";
+}
+</script>
+ <div class="scp-quizzes-data">
+  <h3>2. How would you insert pre-written code into a current program ?</h3>
+    <pre>#include&lt;stdio.h>	
+main() 
+{
+   int x = 5;
+   
+   if(x=5)
+   {	
+      if(x=5) printf("Fast");
+   } 
+   printf("learning");
+}</pre>
+<br/>
+    <input type="radio" name="question2">
+       <label>1. #read&lt;file></label><br/>
+    <input type="radio"  name="question2">
+       <label>2. #get &lt;file></label><br/>
+    <input type="radio" name="question2" id="inculdefile">
+       <label for="inculdefile">3. #include &lt;file></label> <br/>
+    <input type="radio" name="question2">
+     <label>4. #pre &lt;file></label> 
+ </div>
+</div>
+
+
+</body></html>
